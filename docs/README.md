@@ -161,13 +161,19 @@ casos de uso por decirlo de alguna manera.
 
 Durante el **Stage II** vamos a maquetar las vistas siguiendo los
 requerimientos de estos mockups:
-- [formulario de encuesta](docs/formulario de encuesta.pdf)
-- resultado de la encuesta (con un diseño del [historial de preguntas del usuario](docs/historial de preguntas.pdf))
-- [añadir pregunta - nueva encuesta](docs/añadir pregunta - nueva encuesta.pdf)
-- [explorar encuestas](docs/explorar encuestas.pdf)
+
+
+
+
+
+
+- [formulario de encuesta](./formulario_de_encuesta.pdf)
+- resultado de la encuesta (con un diseño del [historial de preguntas del usuario](./historial_de_preguntas.pdf))
+- [añadir pregunta - nueva encuesta](./agregar_pregunta_-_nueva_encuesta.pdf)
+- [explorar encuestas](./explorar_encuestas.pdf)
 
 Por ultimo en el **Stage II** aboraremos el maquetado de las vistas
 - login y registro de usuario
 - vista de confimacion de usuario registrado
 - cuerpo del email de confirmacion de cuenta del usuario
-- [historial de preguntas del usuario](docs/historial de preguntas.pdf)
+- [historial de preguntas del usuario](./historial_de_preguntas.pdf)
