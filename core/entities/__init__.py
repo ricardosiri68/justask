@@ -6,7 +6,9 @@ import public # type: ignore
 
 module_register = (
     'poll',
-    'question'
+    'question',
+    'answer_option',
+    'answer'
 )
 
 for register in module_register:
