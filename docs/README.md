@@ -93,11 +93,12 @@ Alejandro va a ser un `hola mundo` (P.P)
 
 Por suerte si cuento con varios apuntes de planeamiento que elabore el pasado
 viernes, sábado y domingo.
-<img src="../docs/photo_2020-09-17_03-00-27.jpg" alt="photo_2020-09-17_03-00-27" style="zoom:25%;" /> <img src="../docs/photo_2020-09-17_02-59-43.jpg" alt="photo_2020-09-17_02-59-43" style="zoom:25%;" />
-<img src="../docs/photo_2020-09-17_03-00-14.jpg" alt="photo_2020-09-17_03-00-14" style="zoom:25%;" /> <img src="../docs/photo_2020-09-17_03-00-09.jpg" alt="photo_2020-09-17_03-00-09" style="zoom:25%;" />
-<img src="../docs/photo_2020-09-17_03-00-42.jpg" alt="photo_2020-09-17_03-00-42" style="zoom:25%;" /> <img src="../docs/photo_2020-09-17_02-59-58.jpg" alt="photo_2020-09-17_02-59-58" style="zoom:25%;" /> <img src="../docs/photo_2020-09-17_02-59-53.jpg" alt="photo_2020-09-17_02-59-53" style="zoom:25%;" />
-<img src="../docs/photo_2020-09-17_02-59-48.jpg" alt="photo_2020-09-17_02-59-48" style="zoom:25%;" /> <img src="../docs/photo_2020-09-17_02-59-30.jpg" alt="photo_2020-09-17_02-59-30" style="zoom:25%;" />
-<img src="../docs/photo_2020-09-17_02-59-37.jpg" alt="photo_2020-09-17_02-59-37" style="zoom:25%;" /> <img src="../docs/photo_2020-09-17_02-59-25.jpg" alt="photo_2020-09-17_02-59-25" style="zoom:25%;" /> <img src="../docs/photo_2020-09-17_02-58-44.jpg" alt="photo_2020-09-17_02-58-44" style="zoom:25%;" />
+
+<img src="../docs/photo_2020-09-17_03-00-27.jpg" alt="photo_2020-09-17_03-00-27" width="100" /> <img src="../docs/photo_2020-09-17_02-59-43.jpg" alt="photo_2020-09-17_02-59-43" width="100" />
+<img src="../docs/photo_2020-09-17_03-00-14.jpg" alt="photo_2020-09-17_03-00-14" width="100" /> <img src="../docs/photo_2020-09-17_03-00-09.jpg" alt="photo_2020-09-17_03-00-09" width="100" />
+<img src="../docs/photo_2020-09-17_03-00-42.jpg" alt="photo_2020-09-17_03-00-42" width="100" /> <img src="../docs/photo_2020-09-17_02-59-58.jpg" alt="photo_2020-09-17_02-59-58" width="100" /> <img src="../docs/photo_2020-09-17_02-59-53.jpg" alt="photo_2020-09-17_02-59-53" width="100" />
+<img src="../docs/photo_2020-09-17_02-59-48.jpg" alt="photo_2020-09-17_02-59-48" width="100" /> <img src="../docs/photo_2020-09-17_02-59-30.jpg" alt="photo_2020-09-17_02-59-30" width="100" />
+<img src="../docs/photo_2020-09-17_02-59-37.jpg" alt="photo_2020-09-17_02-59-37" width="100" /> <img src="../docs/photo_2020-09-17_02-59-25.jpg" alt="photo_2020-09-17_02-59-25" width="100" /> <img src="../docs/photo_2020-09-17_02-58-44.jpg" alt="photo_2020-09-17_02-58-44" width="100" />
 
 ## Prioridad de Casos de Uso
 
