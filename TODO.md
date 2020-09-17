@@ -1,7 +1,7 @@
 # Stage I
 ## Dockerized enviroment containers
-- [ ] PostgreSQL
-- [ ] Pyhton\Flask
+- [x] PostgreSQL
+- [x] Pyhton\Flask
 
 # Stage II
 ## Dockerized enviroment containers
