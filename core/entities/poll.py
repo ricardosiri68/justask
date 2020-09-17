@@ -5,7 +5,7 @@ from typing import Optional, List
 from dataclasses import dataclass
 from datetime import datetime
 import public # type: ignore
-from .question import Question
+from . import question # pylint: disable=unused-import
 
 @public.add
 @dataclass
@@ -16,7 +16,7 @@ class Poll:
     '''
     parent: Optional['Poll']
     expires_at: datetime
-    questions: List[Question]
+    questions: List['question.Question']
 
     def has_expired(self) -> bool:
         '''
