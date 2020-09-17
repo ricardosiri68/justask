@@ -1,2 +1,4 @@
 nose
 psycopg2
+mypy
+public
