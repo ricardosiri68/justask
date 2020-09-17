@@ -3,22 +3,24 @@
 - [x] PostgreSQL
 - [x] Pyhton\Flask
 
-## Make Domain Model
+## Domain Model
 - [x] Poll
-- [ ] User
 - [x] Question
 - [x] AnswerOption
 - [x] Answer
-- [ ] Tag
 
 ## Unit Test
-- [ ] #1 Create a brand new Poll from payload
-- [ ] #4 Create child Poll from payload and retrive full question list
+- [ ] #1 Create a brand new Poll from a payload
+- [ ] #4 Create child Poll from payload and retrive full questions list
 - [ ] #5 Answer Poll payoad and action
 - [ ] #10 Test poll expiration date and Poll state accessor
 - [ ] Check test stadistic results
 
 # Stage II
+## Domain Model
+- [ ] Tag
+- [ ] User
+
 ## Dockerized enviroment containers
 - [ ] NodeJs\NPM\Yarn
 
