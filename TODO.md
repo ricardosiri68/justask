@@ -4,11 +4,11 @@
 - [x] Pyhton\Flask
 
 ## Make Domain Model
-- [ ] Poll
+- [x] Poll
 - [ ] User
-- [ ] Question
-- [ ] AnswerOption
-- [ ] Answer
+- [x] Question
+- [x] AnswerOption
+- [x] Answer
 - [ ] Tag
 
 ## Unit Test
