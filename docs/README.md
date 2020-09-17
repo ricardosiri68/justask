@@ -151,3 +151,23 @@ En esta ultima etapa cubriremos mas restricciones que funcionalidades:
 - Un mecanismo de autentificacion, sign in\sign up
 - Que solo los usuarios registrados puedan crear encuestas
 - Ver un histórico de preguntas por usuario
+
+## Stages y Maketado de vistas
+
+Durante el **Stage I** no nos encontraremos con maquetado de ningún tipo. Como
+digimos mas arriba esta estapa esta dedicada al core de nuestro producto.
+Entidades, sus estados y las acciones que representan la capa de servicios, sus
+casos de uso por decirlo de alguna manera.
+
+Durante el **Stage II** vamos a maquetar las vistas siguiendo los
+requerimientos de estos mockups:
+- [formulario de encuesta](docs/formulario de encuesta.pdf)
+- resultado de la encuesta (con un diseño del [historial de preguntas del usuario](docs/historial de preguntas.pdf))
+- [añadir pregunta - nueva encuesta](docs/añadir pregunta - nueva encuesta.pdf)
+- [explorar encuestas](docs/explorar encuestas.pdf)
+
+Por ultimo en el **Stage II** aboraremos el maquetado de las vistas
+- login y registro de usuario
+- vista de confimacion de usuario registrado
+- cuerpo del email de confirmacion de cuenta del usuario
+- [historial de preguntas del usuario](docs/historial de preguntas.pdf)
