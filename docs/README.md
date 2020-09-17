@@ -11,19 +11,19 @@ restricciones. Vamos a etiquetar con [CU] para *C*asos de *U*so y [R] para las
 
 ## Vamos a verlos !
 
-**\#1** [CU] Cuando creo una pregunta quiero tener una o mas respuestas como opción
-**\#2** [R] Quiero que cada pregunta pueda tener como máximo 4 respuestas posibles
-**\#3** [R] Quiero que pueda tener un sistema de autentificacion de usuarios
-**\#4** [CU] Quiero que los que visitan una encuesta (no necesiten estar
-registrados) puedan cargar preguntas y sus respectivas respuestas
-**\#5** [CU] Quiero que se pueda responder encuestas sin que el usuario
-necesite estar registrado en el sistema
-**\#6** [R] Solo los usuarios registrados pueden cargar encuestas
-**\#7** [CU] Quiero revisar un historial de preguntas por usuario (no necesita estar
-registrado)
-**\#8** [CU] Quiero agrupar encuestas por medio de etiquetas
-**\#9** [CU] Quiero poder acceder a un listado de todas las encuestas del sistema
-**\#10** [CU] Quiero que las encuestas tengan una fecha de expiracion
+- **\#1** [CU] Cuando creo una pregunta quiero tener una o mas respuestas como opción
+- **\#2** [R] Quiero que cada pregunta pueda tener como máximo 4 respuestas posibles
+- **\#3** [R] Quiero que pueda tener un sistema de autentificacion de usuarios
+- **\#4** [CU] Quiero que los que visitan una encuesta (no necesiten estar
+- registrados) puedan cargar preguntas y sus respectivas respuestas
+- **\#5** [CU] Quiero que se pueda responder encuestas sin que el usuario
+- necesite estar registrado en el sistema
+- **\#6** [R] Solo los usuarios registrados pueden cargar encuestas
+- **\#7** [CU] Quiero revisar un historial de preguntas por usuario (no necesita estar
+- registrado)
+- **\#8** [CU] Quiero agrupar encuestas por medio de etiquetas
+- **\#9** [CU] Quiero poder acceder a un listado de todas las encuestas del sistema
+- **\#10** [CU] Quiero que las encuestas tengan una fecha de expiracion
 
 Una de las dificultades con las que nos encontramos al evaluar estos
 requerimientos es que la restricción **#6** se contradice (solo de forma
