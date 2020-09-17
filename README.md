@@ -23,4 +23,4 @@ docker-compose exec app nosetests --rednose
 si hiciste todo bien...vas a obtener un flamante listado de errores como este
 que ves aca:
 
- ![y eso que pa esto estudiamo ehh](../docs/epic_fail.png).
+ ![y eso que pa esto estudiamo ehh](docs/epic_fail.png).
