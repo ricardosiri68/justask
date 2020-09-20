@@ -4,7 +4,7 @@ goes wrong with this operation will throw a domain exception explaining why
 '''
 from datetime import datetime
 import public # type: ignore
-from core import entities # pylint: disable=unused-import
+from core import entities
 from core.payloads.poll_payload import PollPayload
 
 @public.add
