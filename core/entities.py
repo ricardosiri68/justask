@@ -17,6 +17,8 @@ class Poll:
     parent: Optional['Poll']
     expires_at: datetime
     questions: List['Question']
+    # TODO: add tags on stage II
+    # TODO: add user on stage III
 
     def has_expired(self) -> bool:
         '''
