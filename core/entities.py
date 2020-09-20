@@ -2,7 +2,7 @@
 This module define all the entities of the core domain on a anemic manner
 '''
 from typing import Optional, List, Text
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 import public # type: ignore
 
@@ -14,9 +14,9 @@ class Poll:
     this its a domain object doesnt need have been attached to any database orm
     or any other persistence system
     '''
-    parent: Optional['Poll']
     expires_at: datetime
-    questions: List['Question']
+    parent: Optional['Poll'] = None
+    questions: List['Question'] = field(default_factory=list)
     # TODO: add tags on stage II
     # TODO: add user on stage III
 
@@ -28,6 +28,24 @@ class Poll:
         '''
         return self.expires_at < datetime.now()
 
+    def set_questions(self, questions = List['Question']) -> 'Poll':
+        '''
+        we use a chain method here becouse its more useful for object
+        building
+        '''
+        self.questions = questions
+
+        return self
+
+    def get_questions(self) -> List['Question']:
+        '''
+        inverse composite of the full question list. local + inherited
+        '''
+        if self.parent is not None:
+            return self.questions + self.parent.get_questions()
+
+        return self.questions
+
 
 @public.add
 @dataclass
@@ -37,9 +55,17 @@ class Question:
        |__Question[] <- you are here xD
     '''
     poll: 'Poll'
-    options: List['AnswerOption']
     display: Text
+    options: List['AnswerOption'] = field(default_factory=list)
 
+    def set_options(self, options: List['AnswerOption']) -> 'Question':
+        '''
+        we use a chain method instead of a dinamic property here becouse its
+        more useful for object building operations
+        '''
+        self.options = options
+
+        return self
 
 @public.add
 @dataclass

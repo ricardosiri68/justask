@@ -5,7 +5,7 @@ goes wrong with this operation will throw a domain exception explaining why
 from datetime import datetime
 import public # type: ignore
 from core import entities
-from core.payloads.poll_payload import PollPayload
+from core.payloads import PollPayload
 
 @public.add
 def new_poll(payload: PollPayload) -> 'entities.Poll': # type: ignore
@@ -18,16 +18,18 @@ def new_poll(payload: PollPayload) -> 'entities.Poll': # type: ignore
     assert payload.expires_at() > datetime.now()
     assert payload.questions()
 
-    if payload.poll():
-        # pylint: disable=no-member
-        return entities.Poll( # type: ignore
-            parent=payload.poll(),
-            expires_at=payload.expires_at(),
-            questions=payload.questions()
-        )
-
-    # pylint: disable=no-member
-    return entities.Poll( # type: ignore
+    poll = entities.Poll(
         expires_at=payload.expires_at(),
-        questions=payload.questions()
+        parent=payload.poll()
     )
+
+    questions = []
+    for question in payload.questions():
+        new_question = entities.Question(poll, question.display)
+        options = [entities.AnswerOption(new_question, display) for display in question.options]
+        new_question.set_options(options)
+        questions.append(new_question)
+
+    poll.set_questions(questions)
+
+    return poll
