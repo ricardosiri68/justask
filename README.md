@@ -10,6 +10,8 @@ correr el tipico comando `docker-compose up -d` y todas las dependencias
 necesarias del sistema se instalaran automaticamente en sus respectivos
 contenedores sin pasos adicionales
 
+excepto....jejeje excepto: confgurar las variables de entorno de el .env para conectarse al contenedor de la db...se me olvido el detallin. sori
+
 ## Correr la bateria de pruebas
 ... jeje bateria (dos test tiene y ninguno funciona), para esto vinimo ? no
 hubieramo quedado en kaza... haa cierto no salgo de mi casa desde hace mas de
@@ -23,4 +25,4 @@ docker-compose exec app nosetests --rednose
 si hiciste todo bien...vas a obtener un flamante listado de errores como este
 que ves aca:
 
- ![y eso que pa esto estudiamo ehh](../docs/epic_fail.png).
+ ![y eso que pa esto estudiamo ehh](docs/epic_fail.png).
